@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "326326990771",
+    "project_id": "dblearning-128d1",
+    "storage_bucket": "dblearning-128d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326326990771:android:65e9f3cf2e1c84749e7dc6",
+        "android_client_info": {
+          "package_name": "com.example.learning_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326326990771-nahjt2ta5383tu4u0e3dnlissbgqno7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learning_project",
+            "certificate_hash": "8817ba40fa647893401182eca151809f5061c1f4"
+          }
+        },
+        {
+          "client_id": "326326990771-8858tmlpsbkrgja1fqmfodh2cl551u1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_SL4NrQsyYzUG24dD2ZY1wXK5lvEf1AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326326990771-8858tmlpsbkrgja1fqmfodh2cl551u1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
