@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -7,6 +9,8 @@ class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
+
+const _productIds = {'dash_consumable_2k'};
 
 class _HomePageState extends State<HomePage> {
 // text fields' controllers
@@ -113,6 +117,12 @@ class _HomePageState extends State<HomePage> {
     await _products.doc(productId).delete();
 
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('You have successfully deleted a product')));
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
   }
 
   @override
